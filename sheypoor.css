@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('./fonts/Parastoo.eot');
+    src: url('./fonts/Parastoo.eot?#iefix') format('embedded-opentype'), url('./fonts/Parastoo.woff') format('woff'), url('./fonts/Parastoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ParastooBold;
+    src: url('./fonts/Parastoo-Bold.eot');
+    src: url('./fonts/Parastoo-Bold.eot?#iefix') format('embedded-opentype'), url('./fonts/Parastoo-Bold.woff') format('woff'), url('./fonts/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navar {
+    width: 100%;
+    background-color: rgb(95, 119, 119);
+    padding: 5px;
+}
+
+.positiondorost {
+    display: flex;
+    /* width: 80%; */
+    margin: auto;
+    justify-content: space-between;
+}
+
+.navaritem {
+    color: black;
+    text-decoration: none;
+    font-family: parastoo;
+}
+
+.navarrightitem {
+    margin: 10px 20px 0px 0px;
+}
+
+.navaritem :hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    background-color: floralwhite;
+    padding: 5px;
+}
+
+#addzadan {
+    font-family: parastoo;
+    font-size: 12px;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    border-color: lightskyblue;
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 24px 24px;
+    cursor: pointer;
+}
+
+.main {
+    padding-top: 16px;
+    background-color: cornsilk;
+    width: 100%;
+}
+
+.columndir {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbar {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 100%;
+}
+
+.shadowbehind {
+    border-radius: 6px 6px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+#searchinput {
+    font-family: parastoo;
+    height: 50px;
+    padding: 16px;
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#searchbutton {
+    font-family: parastoo;
+    height: 50px;
+    width: 20%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.detailedCategories {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detaidetailedCategory {
+    padding: 8px;
+    background-color: white;
+    width: 24%;
+}
+
+.categoryHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showAll {
+    color: blue;
+}
+
+.categoryNumber {
+    color: gray;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid grey;
+}
+
+.categoryItemsContainer {
+    margin-top: 24px;
+}
+
+.categotyItem {
+    font-size: 12px;
+    color: grey;
+    border: 1px solid
+}
